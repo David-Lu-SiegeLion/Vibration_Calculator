@@ -1,0 +1,190 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="107201424" file="F:\course\飞行器结构动力学\大作业\Vibration Calculator\VibrationCalculator.prj" location="F:\course\飞行器结构动力学\大作业\Vibration Calculator" name="VibrationCalculator" preferred-package-location="F:\course\飞行器结构动力学\大作业\Vibration Calculator\VibrationCalculator\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>VibrationCalculator</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>Lu Jingyuan</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\VibrationCalculator\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\VibrationCalculator\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\VibrationCalculator\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\VibrationCalculator\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\VibrationCalculator</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	  -? 
+	 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 input arguments</param.help.text>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\app1.mlapp</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\Multi-DoF-2.jpg</file>
+      <file>${PROJECT_ROOT}\Multi-DoF-3.jpg</file>
+      <file>${PROJECT_ROOT}\Multi-DoF-4.jpg</file>
+      <file>${PROJECT_ROOT}\Multi-DoF-5.jpg</file>
+      <file>${PROJECT_ROOT}\Multi-DoF.jpg</file>
+      <file>${PROJECT_ROOT}\multi-shadow1.png</file>
+      <file>${PROJECT_ROOT}\multi-shadow2.png</file>
+      <file>${PROJECT_ROOT}\multi-shadow3.png</file>
+      <file>${PROJECT_ROOT}\multi-shadow4.png</file>
+      <file>${PROJECT_ROOT}\multi-shadow5.png</file>
+      <file>${PROJECT_ROOT}\Single-DoF.jpg</file>
+      <file>${PROJECT_ROOT}\中段.jpg</file>
+      <file>${PROJECT_ROOT}\杆-固定端-右.jpg</file>
+      <file>${PROJECT_ROOT}\杆-固定端-左.jpg</file>
+      <file>${PROJECT_ROOT}\杆-弹性约束-右.jpg</file>
+      <file>${PROJECT_ROOT}\杆-弹性约束-左.jpg</file>
+      <file>${PROJECT_ROOT}\杆-惯性约束-右.jpg</file>
+      <file>${PROJECT_ROOT}\杆-惯性约束-左.jpg</file>
+      <file>${PROJECT_ROOT}\杆-自由端-右.jpg</file>
+      <file>${PROJECT_ROOT}\杆-自由端-左.jpg</file>
+      <file>${PROJECT_ROOT}\校徽.jpg</file>
+      <file>${PROJECT_ROOT}\梁-固定端-右.jpg</file>
+      <file>${PROJECT_ROOT}\梁-固定端-左.jpg</file>
+      <file>${PROJECT_ROOT}\梁-弹性约束-右.jpg</file>
+      <file>${PROJECT_ROOT}\梁-弹性约束-左.jpg</file>
+      <file>${PROJECT_ROOT}\梁-惯性约束-右.jpg</file>
+      <file>${PROJECT_ROOT}\梁-惯性约束-左.jpg</file>
+      <file>${PROJECT_ROOT}\梁-自由端-右.jpg</file>
+      <file>${PROJECT_ROOT}\梁-自由端-左.jpg</file>
+      <file>${PROJECT_ROOT}\梁-铰支端-右.jpg</file>
+      <file>${PROJECT_ROOT}\梁-铰支端-左.jpg</file>
+      <file>${PROJECT_ROOT}\轴-固定端-右.jpg</file>
+      <file>${PROJECT_ROOT}\轴-固定端-左.jpg</file>
+      <file>${PROJECT_ROOT}\轴-弹性约束-右.jpg</file>
+      <file>${PROJECT_ROOT}\轴-弹性约束-左.jpg</file>
+      <file>${PROJECT_ROOT}\轴-惯性约束-右.jpg</file>
+      <file>${PROJECT_ROOT}\轴-惯性约束-左.jpg</file>
+      <file>${PROJECT_ROOT}\轴-自由端-右.jpg</file>
+      <file>${PROJECT_ROOT}\轴-自由端-左.jpg</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\VibrationCalculator\for_testing" name="splash.png" optional="false">F:\course\飞行器结构动力学\大作业\Vibration Calculator\VibrationCalculator\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\VibrationCalculator\for_testing" name="VibrationCalculator.exe" optional="false">F:\course\飞行器结构动力学\大作业\Vibration Calculator\VibrationCalculator\for_testing\VibrationCalculator.exe</file>
+      <file location="${PROJECT_ROOT}\VibrationCalculator\for_testing" name="readme.txt" optional="true">F:\course\飞行器结构动力学\大作业\Vibration Calculator\VibrationCalculator\for_testing\readme.txt</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>D:\Program Files\MATLAB\R2022a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
